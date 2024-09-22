@@ -9,5 +9,9 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
+usuario: any;
+onSubmit() {
+throw new Error('Method not implemented.');
+}
   title = 'cadastro';
 }
